@@ -31,33 +31,33 @@ button:focus{
 .navbar-brand{
     display: flex;
     align-items: center;
-    margin-right: 131px;
 }
 .navbar-brand img{
-    width: 200px;
+    width: 135px;
 }
 .navbar-top{
     display: flex;
     align-items: center;
-    padding: 26px 26px;
-    background-image: url(../img/bg/head-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    padding: 20px 0px;
+
     position: relative;
     z-index: 1;
 }
 
 .navbar-head{
+    background-image: url(../img/bg/head-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: block;
     padding: 0;
     margin: 0;
 }
 .navbar-brand h2 {
-    font-size: 49px;
+    font-size: 30px;
     display: inline-block;
     padding: 0;
-    margin: 0 0 -34px 12px;
+    margin: 0 0 -15px 12px;
 }
 .navbar-brand h2 span {
     -webkit-background-clip: text;
@@ -66,7 +66,7 @@ button:focus{
     color: #cb9e33;
 }
 .btn.gradient{
-    height: 66px;
+    height: 46px;
     padding: 0 10px;
     border-radius: 28px;
     background-image: linear-gradient(to right, #bd8a1d , #f5d975, #cb9e33);
@@ -74,20 +74,22 @@ button:focus{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 18px;
     margin-top: 21px;
 }
 .btn.border-gradient{
-   width: 50px;
-    height: 50px;
+    color: #bf1919;
+    width: 30px;
+    height: 30px;
     padding: 0;
-position: relative;
+    position: relative;
     background: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 23px;
+    font-size: 26px;
 }
 .btn.border-gradient::after {
     content: '';
@@ -115,15 +117,13 @@ form.search-form .btn {
     outline: none;
 }
 form .search-input{
-    height: 70px;
+    height: 50px;
     background: none;
     border: none;
     outline: none;
     background: white;
-    border-radius: 40px;
-    font-size: 20px;
+    border-radius: 25px;
     padding: 0 10px;
-    width: 355px;
 }
 form.search-form::after {
     content: '';
@@ -137,8 +137,8 @@ form.search-form::after {
     border-radius: 36px;
 }
 .search-form .button{
-    width: 50px;
-    height: 50px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     background: #ffffff;
     background-image: url(../img/bg/search.png);
@@ -146,8 +146,8 @@ form.search-form::after {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    right: 26px;
-    top: 13px;
+    right: 12px;
+    top: 11px;
     outline: none;
     box-shadow: none;
     cursor: pointer;
@@ -160,8 +160,8 @@ form.search-form::after {
     margin-right: 20px;
 }
 .login.btn{
-    width: 176px;
-    margin-right: 36px;
+    width: 100px;
+    margin-right: 20px;
 }
 
 .navbar-collapse .nav-item{
@@ -172,8 +172,12 @@ form.search-form::after {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    width: 162px;
+    width: 130px;
     position: relative;
+}
+.nav-link {
+    display: block;
+    padding: 0.3rem 1rem;
 }
 .navbar-collapse .nav-item::after {
     content: '';
@@ -190,6 +194,7 @@ form.search-form::after {
     color: #be1919;
     width: 100%;
     text-align: center;
+    font-size: 18px;
 }
 .navbar-nav{
     position: relative;
@@ -239,12 +244,17 @@ form.search-form::after {
     text-align: center;
 }
 .main-block-poems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px;
     min-height: 100vh;
     width: 100%;
     background-image: url(../img/bg-gold.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 main{
     position: relative;
     padding: 20px 0;
@@ -320,4 +330,144 @@ main:after{
     width: 110px;
     height: 40px;
     top: -59px;
+}
+.top-r-block{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.poems-item{
+    display: block;
+    width: 556px;
+    height: 214px;
+    padding: 60px 30px 0 30px;
+    position: relative;
+    background-image: url(../img/bg/poems-border.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.poems-item-title{
+    font-size: 22px;
+    margin: 0 0 12px 59px;
+}
+.poems-item p{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 14px;
+}
+.more-this-poems{
+    position: absolute;
+    bottom: -12px;
+    right: 35px;
+    background: linear-gradient(to right, #bd8a1d , #f5d975, #cb9e33);
+    padding: 2px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    color: #000000;
+}
+.pagination-poems{
+    position: absolute;
+    bottom: 119px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+}
+.pagination{
+    padding: 0;
+    margin: 0 5px;
+}
+.pagination li{
+    list-style: none;
+    margin: 0 5px;
+}
+form.pagination-form{
+    display: flex;
+    align-items: center;
+}
+form.pagination-form input{
+    background: #ffffff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 0;
+    font-size: 12px;
+}
+form.pagination-form button{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: none;
+    background-image: url(../img/bg/search.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    border: 0;
+}
+.pagination-item{
+    color: #000000;
+}
+.pagination-item.active{
+    color: #be1919;
+}
+.border-l{
+    position: relative;
+}
+.border-l:before{
+    content: "";
+    background-image: url(../img/bg/border-l.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    width: 4px;
+    height: 75px;
+    top: 5px;
+}
+.more-block-poems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg/bg-poems.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 26px;
+    position: relative;
+}
+.more-block-poems::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(to bottom right, #bd8a1d , #f5d975, #cb9e33);
+    z-index: -1;
+    border-radius: 26px;
+}
+.more-block-poems-item{
+    width: 100%;
+    height: 788px;
+    background-image: url(../img/bg/heart.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poem{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
