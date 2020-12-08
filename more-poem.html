@@ -15,11 +15,12 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg  navbar-head">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-top container">
-        <div class="col-md-5">  <a class="navbar-brand" href="#">
+        <div class="col-md-5"><a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="">
             <h2>
                 <span>
@@ -38,7 +39,8 @@
             <form class="search-form ">
                 <input class="search-input " type="search" placeholder="Поиск по сайту" aria-label="Search">
                 <button class="button" type="submit"></button>
-            </form></div>
+            </form>
+        </div>
 
 
     </div>
@@ -77,6 +79,57 @@
 
     </div>
 </nav>
+<div class="form-block">
+
+
+</div>
+
+<div class="modal fade" id="modal-email" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-box modal-content">
+            <h3 class="title-modal">Отправить по Email</h3>
+            <form action="">
+                <div class="circle-gold mail"></div>
+                <div class="modal-input-b">
+                    <input class="modal-input" type="text" placeholder="Введите Email">
+                </div>
+                <button class="btn gradient" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-sms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" >
+        <div class="modal-box modal-content">
+            <h3 class="title-modal">Отправить по СМС</h3>
+            <form action="">
+                <div class="circle-gold email"></div>
+                <div class="modal-input-b">
+                    <input class="modal-input" type="text" placeholder="Введите номер получателя">
+                </div>
+                <button class="btn gradient" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-call" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" >
+        <div class="modal-box modal-content">
+            <h3 class="title-modal">Отправить голосовым сообщением</h3>
+            <form action="">
+                <div class="circle-gold call"></div>
+                <div class="modal-input-b">
+                    <input class="modal-input" type="text" placeholder="Введите номер получателя">
+                </div>
+                <button class="btn gradient" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 <main class="main">
     <div class="container">
         <div class="row">
@@ -103,44 +156,48 @@
             </div>
             <div class="col-md-9">
                 <div class="more-block-poems">
-                           <div class="more-block-poems-item">
-                             <div class="poem">
-                                 <h2 class="poem-title">
-                                     Стихотворение 1
-                                 </h2>
-                                 <div class="poem-body">
-                                 <div class="poem-block">
-                                     Душа моя к тебе стремится, <br>
-                                     Как к солнцу тянется цветок, <br>
-                                     И стоит лишь на миг проститься, <br>
-                                     Крадётся к сердцу холодок,
-                                 </div>
-                                 <div class="poem-block">
-                                     Душа моя к тебе стремится,<br>
-                                     Как к солнцу тянется цветок,<br>
-                                     И стоит лишь на миг проститься,<br>
-                                     Крадётся к сердцу холодок,
-                                 </div>
-                                 <div class="poem-block">
-                                     Душа моя к тебе стремится, <br>
-                                     Как к солнцу тянется цветок, <br>
-                                     И стоит лишь на миг проститься, <br>
-                                     Крадётся к сердцу холодок,
-                                 </div>
-                                 </div>
-                             </div>
-                           </div>
+                    <div class="more-block-poems-item">
+                        <div class="poem">
+                            <h2 class="poem-title">
+                                Стихотворение 1
+                            </h2>
+                            <div class="poem-body">
+                                <div class="poem-block">
+                                    Душа моя к тебе стремится, <br>
+                                    Как к солнцу тянется цветок, <br>
+                                    И стоит лишь на миг проститься, <br>
+                                    Крадётся к сердцу холодок,
+                                </div>
+                                <div class="poem-block">
+                                    Душа моя к тебе стремится,<br>
+                                    Как к солнцу тянется цветок,<br>
+                                    И стоит лишь на миг проститься,<br>
+                                    Крадётся к сердцу холодок,
+                                </div>
+                                <div class="poem-block">
+                                    Душа моя к тебе стремится, <br>
+                                    Как к солнцу тянется цветок, <br>
+                                    И стоит лишь на миг проститься, <br>
+                                    Крадётся к сердцу холодок,
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <button class="btn gradient">
                         В избранное
                     </button>
-                    <div class="listen-audio"><span class="circle-gold play"></span> <h3>Прослушать аудио версию</h3> </div>
+                    <div class="listen-audio"><span class="circle-gold play"></span>
+                        <h3>Прослушать аудио версию</h3></div>
                     <div class="share-block">
                         <h3>Отправить по</h3>
                         <div class="d-flex">
-                            <a class="poem-link" href="#"><span class="circle-gold mail"></span> E-mail</a>
-                            <a class="poem-link" href="#"><span class="circle-gold email"></span> СМС</a>
+                            <a data-toggle="modal" data-target="#modal-email" class="modal-toggle poem-link"><span
+                                    class="circle-gold mail"></span> E-mail</a>
+                            <a data-toggle="modal" data-target="#modal-sms" id="open-m-sms" class="poem-link"><span
+                                    class="circle-gold email"></span> СМС</a>
                         </div>
-                        <a href="#" class="poem-link"><span class="circle-gold call"></span> Голосовое сообщение</a>
+                        <a data-toggle="modal" data-target="#modal-call" class="poem-link"><span
+                                class="circle-gold call"></span> Голосовое сообщение</a>
                     </div>
                 </div>
             </div>
@@ -150,6 +207,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
