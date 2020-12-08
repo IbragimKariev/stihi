@@ -463,11 +463,108 @@ form.pagination-form button{
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    align-items: center;
+    padding: 127px 0 0 0;
     justify-content: center;
 }
 .poem{
     display: flex;
     flex-direction: column;
     width: 300px;
+}
+.poem-block{
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+h2.poem-title{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.poem-body{
+    position: relative;
+}
+.poem-body:before {
+    content: "";
+    background-image: url(../img/bg/poems-t.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    top: -53px;
+}
+.poem-body:after {
+    content: "";
+    background-image: url(../img/bg/poems-b.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 60px;
+    bottom: -66px;
+}
+.listen-audio{
+    width: 430px;
+    height: 215px;
+    background-image: url(../img/bg/bg001.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listen-audio h3, .share-block h3{
+    font-size: 24px;
+    text-align: center;
+}
+.share-block h3{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.share-block{
+    padding: 40px 38px 0 38px;
+    width: 430px;
+    height: 417px;
+    background-image: url(../img/bg/bg002.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.circle-gold{
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.circle-gold.play{
+    background-image: url(../img/bg/play.png);
+}
+.circle-gold.mail{
+    background-image: url(../img/bg/mail.png);
+}
+.circle-gold.email{
+    background-image: url(../img/bg/email.png);
+}
+.circle-gold.call{
+    background-image: url(../img/bg/call.png);
+}
+.poem-link{
+    display: flex;
+    align-items: center;
+}
+.share-block .poem-link{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.share-block a{
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
 }
