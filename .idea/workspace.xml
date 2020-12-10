@@ -20,24 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9eef2d-74d2-4ce8-aee8-789944f95896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/poem-send.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/NexaScript-SemiBold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/NexaScript-SemiBold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more-poem.html" beforeDir="false" afterPath="$PROJECT_DIR$/more-poem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-room.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +86,8 @@
       <workItem from="1607184124940" duration="13672000" />
       <workItem from="1607349504022" duration="12919000" />
       <workItem from="1607441124349" duration="6988000" />
-      <workItem from="1607525530279" duration="7483000" />
+      <workItem from="1607525530279" duration="8172000" />
+      <workItem from="1607622687432" duration="1289000" />
     </task>
     <servers />
   </component>

@@ -988,3 +988,62 @@ input::placeholder{
 .circle-gold.toggle{
     margin: 0;
 }
+
+.container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 66px;
+   margin: 20px auto;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.container-checkbox .checkmark {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    border: 6px solid;
+    border-image-source: linear-gradient(to bottom right, #bd8a1d , #f5d975, #cb9e33);
+    border-image-slice: 1;
+}
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.container-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+    left: -14px;
+    top: -23px;
+    width: 80px;
+    height: 71px;
+    background: url(../img/bg/check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
