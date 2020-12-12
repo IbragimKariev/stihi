@@ -826,14 +826,41 @@ label.check-label {
 /* The '+' is the adjacent sibling selector.
 It selects what ever element comes right after it,
 as long as it is a sibling. */
-input[type="radio"]:checked + label {
+.form-input input[type="radio"]:checked + label {
     background-image: linear-gradient(to right, #bd8a1d 40%, #f5d975, #cb9e33);
     color: #000000;
 }
-input[type="radio"] + label {
+.form-input input[type="radio"] + label {
 background: #ddd;
     color: #000000;
 }
+
+
+.form-input-01 input[type="radio"]:checked + label {
+    background-image: linear-gradient(to right, #bd8a1d 40%, #f5d975, #cb9e33);
+    color: #be1919;
+}
+.form-input-01 input[type="radio"] + label {
+    background-image: linear-gradient(to right, #bd8a1d 40%, #f5d975, #cb9e33);
+    color: #000000;
+}
+.form-input-02 input[type="radio"]:checked + label {
+    background:#be1919;
+    color: #000000;
+}
+.form-input-02 input[type="radio"] + label {
+    background-image: linear-gradient(to right, #bd8a1d 40%, #f5d975, #cb9e33);
+    color: #000000;
+}
+.form-input-02  label.check-label {
+    padding: 8px 29px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
 .span-d{
     padding-left: 20px;
     display: block;
@@ -1348,3 +1375,106 @@ display: flex;
      border-right: 0;
     border-top: 4px solid !important;
  }
+.more-block-poems.more-block-poems-with-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.create-block{
+    width: 100%;
+    min-height: 70vh;
+    border: 3px solid #bd8a1d ;
+    border-radius: 20px;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}
+
+.create-body{
+    width: 600px;
+    height: 800px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.btn.create-btn{
+    color: #000000;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    height: auto;
+    width: 190px;
+    flex-direction: column;
+}
+.create-btn input{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.form-input-01{
+    display: flex;
+    justify-content: space-between;
+}
+.form-price{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.form-inf{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.form-price input{
+    border: 3px solid #bd8a1d ;
+    border-radius: 18px;
+    padding: 7px 20px;
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+.form-price h3{
+  min-width: 180px;
+}
+input.no-border {
+    border: 1px solid #bd8a1d;
+    border-radius: 18px;
+    padding: 5px 15px;
+    outline: none;
+    box-shadow: none;
+    background: #ffffff;
+    width: 160px;
+}
+.form-inf input{
+    border: 3px solid #bd8a1d ;
+    border-radius: 18px;
+    padding: 7px 20px;
+    outline: none;
+    box-shadow: none;
+    background: none;
+    width: 100%;
+}
+ul.btns li.btn{
+    display: contents;
+}
+ul.btns li.btn .nav-link.active {
+    color: #be1919;
+    background-image: linear-gradient(to right, #bd8a1d , #f5d975, #cb9e33);
+   border: none;
+}
+ul.btns li.btn .nav-link {
+    color: #000000;
+    background-image: linear-gradient(to right, #bd8a1d , #f5d975, #cb9e33);
+    border: none;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+.nav-tabs {
+    border-bottom:none;
+}
