@@ -158,7 +158,9 @@ form.search-form::after {
 }
 .register-q.btn{
     margin-right: 20px;
+    position: relative;
 }
+
 .login.btn{
     width: 100px;
     margin-right: 20px;
@@ -295,6 +297,11 @@ main:after{
     color: #000000;
     font-size: 20px;
     line-height: 49px;
+    display: flex;
+    flex-direction: column;
+}
+.list-poems li a.active{
+    color: #bf1919;
 }
 .block-poems:after{
     content: "";
@@ -1100,6 +1107,7 @@ input::placeholder{
 .title-block{
     margin: 30px auto 30px auto;
     text-align: center;
+    font-size: 26px;
 }
 .btns{
     width: 100%;
@@ -1477,4 +1485,26 @@ ul.btns li.btn .nav-link {
 }
 .nav-tabs {
     border-bottom:none;
+}
+.more-text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #bd8a1d;
+    border-radius: 18px;
+    padding: 3px 10px;
+    font-size: 16px;
+    background: #ffffff;
+    display: none;
+}
+.register-q:hover .more-text{
+    display: block;
+}
+.last-inf{
+    border: 1px solid #bd8a1d;
+    border-radius: 18px;
+    padding: 3px 10px;
+    font-size: 16px;
+    background: #ffffff;
+    margin: 0 auto;
 }
