@@ -1520,6 +1520,7 @@ ul.btns li.btn .nav-link {
 }
 .owl-carousel .owl-nav button.owl-next{
     right: 34px;
+    z-index: 9999;
 }
 .owl-carousel .owl-nav button.owl-prev{
     left:  34px;
