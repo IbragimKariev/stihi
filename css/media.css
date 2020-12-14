@@ -40,7 +40,21 @@
     }
 
 }
+@media screen and (max-width: 991px) {
+    .block-poems{
+        display: none;
+    }
+}
 @media screen and (max-width: 769px) {
+    .owl-carousel .owl-nav button.owl-prev {
+        left: 25px!important;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        z-index: 9999;
+    }
+    #tomes.tomes-nav {
+        padding: 10px 55px;
+    }
     .pagination-poems {
         bottom: 45px;
     }
@@ -66,7 +80,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 70px 0px;
+        padding: 70px 0px 120px;
         min-height: 100vh;
         width: 100%;
         background-size: contain;
@@ -74,7 +88,7 @@
         background-image: linear-gradient(to bottom right, #f6f6f6 , #929292, #f6f6f6, #929292);
     }
     .pagination-poems {
-        bottom: 45px;
+        bottom: 20px;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -84,6 +98,7 @@
         margin: 0px 0 10px 0px;
     }
     .top-r-block {
+        padding: 0 0 20px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -96,4 +111,18 @@
         position: relative;
         z-index: 1;
     }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar-toggler{
+        font-size: 28px;
+        color: #bd8a1d ;
+    }
+    main {
+       margin-top: 50px;
+    }
+    main:before {
+        z-index: 99;
+    }
+
 }

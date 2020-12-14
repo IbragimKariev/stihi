@@ -159,6 +159,7 @@ form.search-form::after {
 .register-q.btn{
     margin-right: 20px;
     position: relative;
+
 }
 
 .login.btn{
@@ -166,7 +167,7 @@ form.search-form::after {
     margin-right: 20px;
 }
 
-.navbar-collapse .nav-item{
+.tomes .tomes-nav-item{
     padding: 2px 10px;
     border-radius: 25px;
     background-image: linear-gradient(to bottom right, #f6f6f6 , #929292, #f6f6f6, #929292);
@@ -174,14 +175,13 @@ form.search-form::after {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    width: 130px;
     position: relative;
 }
-.nav-link {
+.tomes-nav-link {
     display: block;
     padding: 0.3rem 1rem;
 }
-.navbar-collapse .nav-item::after {
+.tomes-nav .tomes-nav-item::after {
     content: '';
     position: absolute;
     top: -1px;
@@ -192,18 +192,18 @@ form.search-form::after {
     z-index: -1;
     border-radius: 30px;
 }
-.navbar-collapse .nav-item a{
+.tomes-nav .tomes-nav-item a{
     color: #be1919;
     width: 100%;
     text-align: center;
     font-size: 18px;
 }
-.navbar-nav{
+.tomes-nav{
     position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 60px;
    background-image: url(../img/bg/bg-nav.png);
     background-size: cover;
     background-position: center;
@@ -212,7 +212,7 @@ form.search-form::after {
     border-image-source: linear-gradient(to bottom right, #bd8a1d , #f5d975, #cb9e33);
     border-image-slice: 1;
 }
-.navbar-nav:before{
+.tomes-nav:before{
     content: "";
     background-image: url(../img/bg/border.png);
     background-size: contain;
@@ -224,7 +224,7 @@ form.search-form::after {
     height: 72px;
     top: -5px;
 }
-.navbar-nav:after{
+.tomes-nav:after{
     content: "";
     background-image: url(../img/bg/border.png);
     background-size: contain;
@@ -1508,3 +1508,29 @@ ul.btns li.btn .nav-link {
     background: #ffffff;
     margin: 0 auto;
 }
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    background: 0 0;
+    color: #ffffff;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: -9px;
+    font-size: 44px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: 34px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left:  34px;
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}  .navbar-toggler{
+       font-size: 28px;
+       color: #bd8a1d ;
+    margin: 10px 0;
+    float: right;
+   }
