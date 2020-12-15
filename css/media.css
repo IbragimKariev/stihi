@@ -44,6 +44,10 @@
     .block-poems{
         display: none;
     }
+    .listen-audio, .share-block{
+        background: none;
+    }
+
 }
 @media screen and (max-width: 769px) {
     .owl-carousel .owl-nav button.owl-prev {
@@ -123,6 +127,36 @@
     }
     main:before {
         z-index: 99;
+    }
+    .block-gold-border{
+        width: 100%;
+    }
+    .block-gold-border.success {
+        width: 100%;
+    }
+    .listen-audio {
+        width: 98%;
+        height: 180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 4px;
+    }
+    .circle-gold {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .share-block {
+        padding: 40px 8px 0 8px;
+        width: 100%;
     }
 
 }
