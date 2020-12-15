@@ -158,5 +158,85 @@
         padding: 40px 8px 0 8px;
         width: 100%;
     }
+    .pay-block{
+        background: none;
+        height: auto;
+        border: 2px solid #bd8a1d ;
+    }
+    .form-group {
+        flex-direction: column;
+    }
+    .password-input {
+        background-image: url(../img/bg/password.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+        height: 53px;
+        display: flex;
+    }
+    .password-input input{
+        width: 300px;
+    }
+    .create-body {
+        width: 100%;
+        height: 800px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .btns .btn.gradient {
+        height: 68px;
+        padding: 0 6px;
+        border-radius: 11px;
+        background-image: linear-gradient(to right, #bd8a1d , #f5d975, #cb9e33);
+        color: #bf1919;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        margin-top: 21px;
+    }
+    .btns{
+        flex-direction: column;
+    }
+    .form-input-01 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .send-message .btn.gradient {
+        font-size: 12px;
+    }
+    .block-friends {
+      width: 100%;
+        background: none;
+        border: 1px solid #f5d975;
+    }
+    .border-top .btns.content-r{
+        display: flex;
+        flex-direction: initial;
+    }
+    .border-top .btns.content-r .btn.with-border {
+        width: 80px;
+        background-image: none;
+        padding: 5px 10px;
+        font-size: 12px;
+        border: 1px solid #bd8a1d ;
+    }
+    .form-inf h3{
+        font-size: 14px;
+    }
+    .form-price {
+        display: flex;
+        margin: 10px 0;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form-price h3 {
+        min-width: auto;
+        font-size: 18px;
+    }
 
 }
