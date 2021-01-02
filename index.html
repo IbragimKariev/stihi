@@ -1,233 +1,926 @@
 <!DOCTYPE html>
-<html lang="en-ru">
+<!--[if IE 8]>
+<html class="no-js ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]>
+<html class="no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js"> <!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Стихи</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>///Разработка программного обеспечения - аутсорсинг программистов - Syntlex</title>
+    <meta name="description"
+          content="Мы беремся за проекты с полным циклом реализации. Созание больших систем подразумевает расчет всех деталей проекта. Начиная с дизайна и верстки, выбор языков и баз данных для back-end, и заканчивая серверной инфрасруктурой. По этому мы работаем силами проверенной команды. Наше приоритетное направление - это медицина, фармацевтика, биотехнологии и смежные услуги.">
+    <meta name="viewport" content="width=device-width, initial-scale=0.85">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <!-- Icons & favicons -->
+    <link rel="apple-touch-icon" href="assets/images/apple-icon-touch.png">
+    <link rel="icon" href="assets/images/favicon.png">
+    <!--[if IE]>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <![endif]-->
 
+    <!-- Stylesheet -->
+    <!--    <link href="assets/styles/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
+
+    <link rel="stylesheet" href="assets/styles/css/layout.css">
+    <link rel="stylesheet" href="assets/styles/css/fontello.css">
+    <link rel="stylesheet" href="assets/styles/css/app.css">
+    <link rel="stylesheet" class="color-switcher" href="assets/styles/css/app-red.css">
+
+    <!-- Modernizr -->
+    <script src="assets/js/modernizr.min.js"></script>
+
+    <!-- SMM -->
+    <meta content="Syntlex Software development outsourcing" property="og:site_name"/>
+    <meta content="Разработка программного обеспечения - аутсорсинг программистов - Syntlex" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://www.syntlex.info/index.php" property="og:url"/>
+    <meta content="Мы беремся за проекты с полным циклом реализации. Созание больших систем подразумевает расчет всех деталей проекта. Начиная с дизайна и верстки, выбор языков и баз данных для back-end, и заканчивая серверной инфрасруктурой. По этому мы работаем силами проверенной команды."
+          property="og:description"/>
+    <meta content="https://www.syntlex.info/assets/images/smm3.jpg" property="og:image"/>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg  navbar-head">
+<body class="landing">
 
-    <div class="navbar-top container">
-        <div class="col-md-5"><a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="">
-            <h2>
-                <span>
-                    Стихи о любви...
-                </span> <br>
-                <span>
-                     И о жизни... в любви
-                </span>
-            </h2>
+<!-- SITE CONTENT -->
 
-        </a></div>
-        <div class="col-md-7 top-r-block">
-            <div class="d-flex align-items-center">
-            <a class="btn gradient register" href="#">Зарегестрироваться</a>
-            <div id="more-inf" class="btn border-gradient register-q" href="#">
-                ?
-                <div class="more-text">
-                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt
+<div id="site-content">
+
+    <!-- Header -->
+
+    <header class="app-header" id="app-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <!-- Logo -->
+                <div class="logo" id="logo">
+                    <!-- image logo -->
+                    <a href="/" class="image-logo">
+                        <img src="assets/images/logo.png" alt="Syntlex"/>
+                    </a>
+                    <!-- HTML logo -->
+                    <a href="/" class="html-logo"><img align="Syntlex" src="assets/images/logo.png"></a>
+                </div>
+                <!-- Main-Nav -->
+                <nav class="main-nav">
+                    <ul>
+                        <!-- Dropdown Nav -->
+                        <li class="active"><a href="#head-main">Главная</a></li>
+                        <li><a href="#about-us">О нас</a></li>
+                        <li><a href="#s-why-choose-us">Аутстаффинг</a></li>
+                        <li><a href="#png-section">Стэк </a></li>
+                        <li><a href="#s-skill">Команда </a></li>
+                        <li><a href="#s-contact">Контакты</a></li>
+                    </ul>
+
+                    <ul class="langs">
+                        <li><a href="#" class="active">DE</a></li>
+                        <li><a href="#">FR</a></li>
+                        <li><a href="#">RU</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Sub-Header -->
+
+    <section class="hero inactive" id="head-main">
+        <div class="hero-down">
+            <a href="#about-us" class="mouse">
+                <div class="mouse-animations">
+                    <div class="mouse-scroll-l"></div>
+                    <div class="mouse-scroll-2"></div>
+                    <div class="mouse-scroll-3"></div>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="title-wrapper">
+                <div class="hero-title">
+                    <h2>Добро пожаловать в Syntlex</h2>
+                    <h3>Услуга Аутстаффинг персонала</h3>
+                </div>
+                <div class="meta">
+                    <p class="blurb">Услуга аутстаффинг персонала / outstaffing позволяет вашей компании вывести часть
+                        персонала из штата и поручить оформление трудовых отношений с этими сотрудниками ИМПЕРИИ КАДРОВ.
+                        Они зачисляются в штат нашей компании по подбору персонала, мы берем на себя расчет и выплату
+                        зарплаты, налогов и кадровое делопроизводство. </p>
+                    <a href="#s-why-choose-us" class="button round border">Подробнее</a>
                 </div>
             </div>
-            </div>
-            <div class="d-flex align-items-center">
-            <a class="btn gradient login" href="#">Вход</a>
-            <form class="search-form ">
-                <input class="search-input " type="search" placeholder="Поиск по сайту" aria-label="Search">
-                <button class="button" type="submit"></button>
-            </form>
+        </div>
+    </section>
+    <!-- Breadcrumb -->
+
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul>
+
+                <li><strong>Мы работаем с</strong></li>
+                <li class="current">ReactJS</li>
+                <li class="current">NodeJS</a></li>
+                <li class="current">Docker</a></li>
+                <li class="current">PostgreSQL</a></li>
+                <li class="current">Redux</a></li>
+                <li class="current">HTML 5</a></li>
+                <li class="current">SASS</li>
+                <li class="current">JavaScript</li>
+                <li class="current">Android</li>
+                <li class="current">iOS</li>
+                <li class="current">REST API</li>
+                <li class="current">SDK</li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Content -->
+
+    <section class="section primary" id="about-us">
+        <div class="container">
+            <div class="welcome-titles">
+                <header class="sep active">
+                    <div class="section-title">
+                        <h2>Команда разработчиков <b>Syntlex</b></h2>
+                        <h3>Строим проекты с уникальной идеей</h3>
+                    </div>
+                </header>
+                <div class="row flexbox">
+                    <div class="span-6">
+                        <p class="lead">Наш опыт разработки пректов начинается в 2005 году. За эти годы мы накопили
+                            навыки решения сложных технологичных задач. На старте мы решили не использовать чужие
+                            готовые шаблоны, а выбрали путь создания новых и сложных идей. <strong>Медицинские проекты
+                                для нас являются приоритетными.</strong></p>
+                    </div>
+                    <div class="span-6 text-padding">
+                        <img src="assets/images/text-block-img-1.png" alt="">
+                    </div>
+                </div>
+                <hr class="dotted">
             </div>
         </div>
+    </section>
+
+    <section class="section single-page primary">
+        <div class="container">
+            <div class="welcome-titles">
+                <header class="welcome-content">
+                    <div class="section-title">
+                        <h2>Технологии меняются</h2>
+                        <p>мы учитываем кроссбраузерную поддержку</p>
+                    </div>
+                    <p class="welcome-browsers max-bp2">
+                        <i class="livicon tooltip" data-tip="Firefox" data-n="firefox" data-c="original" data-s="48"
+                           data-hc="false"></i>
+                        <i class="livicon tooltip" data-tip="Chrome" data-n="chrome" data-c="original" data-s="48"
+                           data-hc="false"></i>
+                        <i class="livicon tooltip" data-tip="Opera" data-n="opera" data-c="original" data-s="48"
+                           data-hc="false"></i>
+                        <i class="livicon tooltip" data-tip="Safari" data-n="safari" data-c="original" data-s="48"
+                           data-hc="false"></i>
+                    </p>
+                    <p class="welcome-browsers min-bp2">
+                        <i class="livicon tooltip" data-tip="Firefox" data-n="firefox" data-c="original" data-s="68"
+                           data-hc="false"></i>
+                        <i class="livicon tooltip" data-tip="Chrome" data-n="chrome" data-c="original" data-s="68"
+                           data-hc="false"></i>
+                        <i class="livicon tooltip" data-tip="Opera" data-n="opera" data-c="original" data-s="68"
+                           data-hc="false"></i>
+                        <i class="livicon tooltip" data-tip="Safari" data-n="safari" data-c="original" data-s="68"
+                           data-hc="false"></i>
+                    </p>
+
+                    <div class="row bp0">
+                        <div class="span-4 widget welcome-feature">
+                            <i class="livicon" data-n="tablet" data-c="#C1C1C1" data-op="1" data-s="68"
+                               data-hc="false"></i>
+                            <div class="widget-content">
+                                <div class="title">
+                                    <h4>Retina Ready</h4>
+                                </div>
+                                <p>Разработка интерфейсов для всех устройств.</p>
+                            </div>
+                        </div>
+                        <div class="span-4 widget welcome-feature">
+                            <i class="livicon" data-n="html5" data-c="#C1C1C1" data-op="1" data-s="68"
+                               data-hc="false"></i>
+                            <div class="widget-content">
+                                <div class="title">
+                                    <h4>Valid HTML5</h4>
+                                </div>
+                                <p>Расчет на любую аудиторию и устройства.</p>
+                            </div>
+                        </div>
+                        <div class="span-4 widget welcome-feature">
+                            <i class="livicon" data-n="responsive" data-c="#C1C1C1" data-op="1" data-s="68"
+                               data-hc="false"></i>
+                            <div class="widget-content">
+                                <div class="title">
+                                    <h4><span>100%</span> Responsive</h4>
+                                </div>
+                                <p>Адаптивность front-end части проектов учтена.</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </section>
+
+    <section class="section secondary skills inactive" id="s-skills">
+        <div class="container">
+            <div class="row block-columns">
+                <div class="span-6 skills-meta">
+                    <div class="section-title">
+                        <h2>Наши навыки</h2>
+
+                    </div>
+                    <p>Мы беремся только за проекты <b>с полным циклом</b> реализации. Созание больших систем (<strong>особенно
+                        медицинских</strong>) подразумевает расчет всех деталей проекта. Начиная с дизайна и верстки,
+                        выбор языков и баз данных для back-end, и заканчивая серверной инфрасруктурой. По этому мы
+                        работаем только силами проверенной команды. Создаем полностью проект:</p>
+                    <ul class="bullet-list min-bp2">
+                        <li>UI/UX Design — графичесский и стильный интерфейс с учетом юзабилити</li>
+                        <li>Front-end — клиентская сторона пользовательского интерфейса приложений</li>
+                        <li>Back-end — центральное двухзвенное приложение для хранения данных</li>
+                    </ul>
+                    <p class="button-set">
+                        <a href="https://www.syntlex.info/order/request03add.php"
+                           class="button round brand-1">Заказать</a>
+                        <a href="#s-contacts"
+                           class="button round border">Задать вопрос</a>
+                    </p>
+                </div>
+                <div class="span-6 progress-bars">
+                    <h5>UI/UX Design</h5>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="75%">75%</div>
+                    </div>
+                    <h5>HTML5/CSS3/SASS/LESS</h5>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="100%">100%</div>
+                    </div>
+                    <h5>ReactJS/Redux/JavaScript</h5>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="80%">80%</div>
+                    </div>
+                    <h5>NodeJS/PostgreSQL/Redis/Docker</h5>
+                    <div class="progress-bar">
+                        <div class="progress" data-progress="65%">65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section primary why-choose-us section-map inactive" id="s-why-choose-us">
+        <div class="container">
+            <header class="sep active">
+                <div class="section-title">
+                    <h2><i>АУТСТАФФИНГ</i></h2>
+                    <h3>Услуги по предоставлению персонала.</h3>
+                </div>
+                <p><strong>Аутстаффинг</strong> — это выведение персонала за штат компании. При аутстаффинге персонал
+                    заключает трудовые договоры не с фирмой, являющейся фактическим работодателем, а с
+                    организацией-посредником, или аутстаффером.</p>
+            </header>
+
+            <div class="wcu-content">
+                <div class="wcu-graphic">
+                    <img src="assets/images/strategie2.jpg" alt="Syntlex"/>
+                </div>
+                <div class="wcu-features">
+                    <div class="widget wcu-feature wcu-left">
+                        <div class="widget-content">
+                            <i class="livicon" data-n="desktop" data-op="1" data-c="#C1C1C1" data-s="55"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Десктоп приложения</h4>
+                                <h5>Разработка десктопных приложений</h5>
+                            </div>
+                            <p>Desktop-приложения – это сложные программные продукты, которые установлены на
+                                персональном компьютере и для работы с которыми не требуется доступ к сети</p>
+                        </div>
+                    </div>
+                    <div class="widget wcu-feature wcu-left">
+                        <div class="widget-content">
+                            <i class="livicon" data-n="responsive" data-op="1" data-c="#C1C1C1" data-s="55"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Мобильные приложения</h4>
+                                <h5>Разработке мобильных приложений</h5>
+                            </div>
+                            <p>С распространением мобильных устройств появился дополнительный маркетинговый инструмент
+                                для решения задач – мобильное приложение</p>
+                        </div>
+                    </div>
+                    <div class="widget wcu-feature wcu-right">
+                        <div class="widget-content">
+                            <i class="livicon" data-n="image" data-op="1" data-c="#C1C1C1" data-s="55"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Web разработка</h4>
+                                <h5>Мы создаем разные веб-проекты</h5>
+                            </div>
+                            <p>У нас можно заказать сайт-визитку, корпоративный ресурс, интернет-магазин, блог,
+                                портфолио, landing page, индивидуальный ресурс, не имеющих аналогов. </p>
+                        </div>
+                    </div>
+                    <div class="widget wcu-feature wcu-right">
+                        <div class="widget-content">
+                            <i class="livicon" data-n="code" data-op="1" data-c="#C1C1C1" data-s="55"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Арихитектура DevOps</h4>
+                                <h5>DevOps как услуга или как часть процесса разработки</h5>
+                            </div>
+                            <p>Предоставляем услуги DevOps, которые включают в себя непрерывную интеграцию и непрерывную
+                                поставку программного обеспечения, автоматизацию DevOps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section banner alt" id="s-skill">
+        <div class="container">
+            <div class="content">
+                <h4>Наша команда - <b>дружный full stack коллектив</b></h4>
+                <p>со своей <i>корпоративной культурой</i> и базой знаний, способен решить спец задания без шума и
+                    строго конфеденциально с соблюдением сроков...</p>
+            </div>
+            <div class="meta">
+                <a href="#s-contact" target="blank" class="button brand-1 round">Связаться</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section primary team" id="s-team">
+        <div class="container">
+            <header class="sep active">
+                <div class="section-title">
+                    <h2>Технологии <i>с которыми мы работаем</i></h2>
+                    <h3>боевой арсенал для великих побед</h3>
+                </div>
+                <p>В своей работе мы используем самые быстрые базы данных, современные языки программирования, лучшие
+                    фреймворки для развертывания веб и мобильных приложений и следим за безопасностью личных данных
+                    пользователей.</p>
+                <p><img src="assets/images/technologic-img.jpg" alt="Syntlex full stack"></p>
+            </header>
+        </div>
+    </section>
+
+    <!--      <section class="section secondary skills inactive" id="s-skill">-->
+    <!--        <div class="container">-->
+    <!--          <div class="row block-columns">-->
+    <!--            <div class="span-6 skills-meta">-->
+    <!--              <div class="section-title">-->
+    <!--                <h2>Работа команды</h2>                    -->
+    <!--              </div>-->
+    <!--              <p>Количество штатных единиц в команде определяется объемами работ и сроками выполнения задач. Сроки расчитываются при разработке первичного техничесского задания. Мы предлагаем клиенту выбрать <b>два критерия</b> для сотрудничества: <b>Быстро. Качествненно. Не дорого.</b></p>             -->
+    <!--              <p class="button-set">-->
+    <!--                <a href="#s-contact"-->
+    <!--                class="button round brand-1">Заказать</a>-->
+    <!--                <a href="#s-contact"-->
+    <!--                class="button round border">Задать вопрос</a>-->
+    <!--              </p>-->
+    <!--            </div>-->
+    <!--            <div class="span-6 skills-meta">-->
+    <!--              <div class="section-title">-->
+    <!--                <h3>Базовый состав команды</h3>-->
+    <!--              </div>-->
+    <!--              <br>-->
+    <!--              <ul class="bullet-list min-bp2">-->
+    <!--                <li>Managment — проект-менеджер</li>-->
+    <!--                <li>UI/UX Design — дизайнер</li>-->
+    <!--                <li>Front-end — верстальщик, программисты</li>-->
+    <!--                <li>Back-end — системный администратор, разработчик СУБД, программисты</li>-->
+    <!--                <li>Mobile/Tablet — iOS разработчик, Android разработчик</li>-->
+    <!--                <li>QA Engineer — web тестеровщик, mobile тестеровщик</li>                    -->
+    <!--                <li>Content — web-мастер, копирайтер</li>-->
+    <!--                <li>Expert — тематический консультант</li>-->
+    <!--              </ul>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </section>-->
+
+    <section id="png-section">
+        <!-- Features BEGIN -->
+        <div class="section  features-bg " style="background-size: cover ; padding-bottom: 0">
+            <div class="container">
+                <header class="sep active">
+                    <div class="section-title">
+                        <h2 style="color:#ffffff">Наши технологии</h2>
+                    </div>
+
+                </header>
+                <!-- Features -->
+                <div class="row">
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/android-apple.svg" alt="Android-Apple">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/angular.svg" alt="Angular">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/atlassian.svg" alt="Atlassian">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/cassandra.svg" alt="Cassandra">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/kafka.svg" alt="Kafka">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/dcos.svg" alt="Dcos">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/docker.svg" alt="Docker">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/java.svg" alt="Java">
+                        </div>
+                    </div>
+                </div>
 
 
-    </div>
+                <div class="row">
+
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/kubernetes.svg" alt="Kubernetes">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/meteor.svg" alt="Meteor">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/mongodb.svg" alt="Mongodb">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/node.svg" alt="Node">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/openstack.svg" alt="Openstack">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/oracle.svg" alt="Oracle">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/react.svg" alt="React">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/react-native.svg" alt="React-Native">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/sap.svg" alt="Sap">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/se.svg" alt="Se">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/spark.svg" alt="Spark">
+                        </div>
+                    </div>
 
 
-
-    <div class="tomes" id="">
-        <div id="tomes" class="tomes-nav owl-carousel owl-theme">
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
-            <div class="tomes-nav-item">
-            <a class="tomes-nav-link" href="#">том 1</a>
-             </div>
-            <div class="tomes-nav-item">
-                <a class="tomes-nav-link" href="#">том 1</a>
-            </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/terrasoft.svg" alt="Terrasoft">
+                        </div>
+                    </div>
+                    <div class="span-3">
+                        <div class="logo-tech">
+                            <img src="assets/images/tech/up" alt="">
+                        </div>
+                    </div>
+                </div>
 
 
+            </div><!-- //end row -->
         </div>
 
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-</nav>
-<main class="main">
+        <!-- Features END -->
+    </section>
+    <section class="section primary" id="" style="background: #ffffff">
+        <div class="container">
+            <div class="welcome-titles">
+                <header class="sep active">
+                    <div class="section-title">
+                        <h2>Аутсорсинг персонала</h2>
+                        <h3>Наша команда и опыт
+                            для реализации ваших ИТ-проектов!</h3>
+                    </div>
+                </header>
+                <div class="row flexbox">
+                    <div class="span-6 text-padding">
+                        <img src="assets/images/3227422.jpg" alt="">
+                    </div>
+                    <div class="span-6">
+                        <p class="lead">Имея огромный опыт в сфере <strong>аутсорсинга персонала</strong>, мы поможем вам сформировать
+                            команду профессионалов, обладающих именно тем набором знаний и технологий, которые вам
+                            необходимы. Это может быть как удаленная команда для работы над одним проектом, так и один
+                            специалист на удаленную поддержку сайта, обладающий необходимыми навыками. При этом возможны
+                            закрытия вакансий, как на полную, так и частичную занятость. Если вам сложно сформулировать
+                            требования к специалисту или команде, пожалуйста, свяжитесь с нами, мы поможем
+                            конкретизировать требования, исходя из стоящей задачи. </p>
+                    </div>
+                </div>
+                <hr class="dotted">
+            </div>
+        </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-3">
-                <div class="block-poems  navbar-collapse" id="navbarSupportedContent">
-                    <ul class="list-poems navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 2</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 3</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 4</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 5</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 6</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 7</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 8</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 9</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 10</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 11</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 12</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 13</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 14</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Стихотворение 15</a></li>
+    <section class="section secondary skills inactive" id="">
+        <div class="container">
+            <div class="row block-columns">
+                <div class="span-6 skills-meta">
+                    <div class="section-title">
+                        <h3>IT аутсорсинг</h3>
+                    </div>
+                    <p>Само понятие ИТ аутсорсинга подразумевает передачу внешнему <br> подрядчиков внутренних функций
+                        предприятия, и в частности функций ИТ подразделения. Также может подразумеваться передача целых
+                        ИТ процессов внешнему поставщику услуг</p>
+                    <p>
+                        Во всем мире популярен комплексные контракты — когда внешней компании передается вся
+                        обслуживание всей ИТ инфраструктуры.
+                    </p>
+                </div>
+                <div class="span-6 skills-meta">
+                    <div class="section-title">
+                        <h3>Преимущества ИТ аутсорсинга</h3>
+                    </div>
+                    <br>
+                    <ul class="bullet-list min-bp2">
+                        <li>Прозрачность ИТ бюджета;</li>
+                        <li>Гарантированный уровень сервиса, описанный в договоре(SLA);</li>
+                        <li>Сохранение затрат на прежнем уровне при увеличении уровня сервиса, либо сокращение затрат на
+                            ИТ при сохранении уровня сервиса;
+                        </li>
+                        <li>Эластичность затрат на ИТ;</li>
+                        <li>Возможность сфокусироваться на основном виде деятельности компании;</li>
+                        <li>Инвестиционная привлекательность за счет прозрачности затрат;</li>
+                        <li>Быстрый доступ к компетенциям поставщика услуг</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-9">
-                <div class="main-block-poems">
-                    <div class="poems-item">
-                        <h2 class="poems-item-title">Стихотворение 1</h2>
-                        <div class="container border-l">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <p>
-                                        В напрасных поисках за ней <br>
-                                        Я исследил земные тропы <br>
-                                        От Гималайских ступеней <br>
-                                        До древних пристаней Европы.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <p>
-                                        В напрасных поисках за ней <br>
-                                        Я исследил земные тропы <br>
-                                        От Гималайских ступеней <br>
-                                        До древних пристаней Европы...
-                                    </p>
-                                </div>
-                            </div>
+        </div>
+    </section>
 
-                        </div>
-                        <a href="#" class="more-this-poems">подробнее</a>
-                    </div>
-                    <div class="poems-item">
-                        <h2 class="poems-item-title">Стихотворение 1</h2>
-                        <div class="container border-l">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <p>
-                                        В напрасных поисках за ней <br>
-                                        Я исследил земные тропы <br>
-                                        От Гималайских ступеней <br>
-                                        До древних пристаней Европы.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <p>
-                                        В напрасных поисках за ней <br>
-                                        Я исследил земные тропы <br>
-                                        От Гималайских ступеней <br>
-                                        До древних пристаней Европы...
-                                    </p>
-                                </div>
-                            </div>
 
-                        </div>
-                        <a href="#" class="more-this-poems">подробнее</a>
-                    </div>
-                    <div class="poems-item">
-                        <h2 class="poems-item-title">Стихотворение 1</h2>
-                        <div class="container border-l">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <p>
-                                        В напрасных поисках за ней <br>
-                                        Я исследил земные тропы <br>
-                                        От Гималайских ступеней <br>
-                                        До древних пристаней Европы.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <p>
-                                        В напрасных поисках за ней <br>
-                                        Я исследил земные тропы <br>
-                                        От Гималайских ступеней <br>
-                                        До древних пристаней Европы...
-                                    </p>
-                                </div>
-                            </div>
+    <section class="section primary contact" id="s-contact" style="padding-top: 30px">
+        <div class="container">
+            <header class="sep active">
+                <div class="section-title">
+                    <h2>Заполните <i>форму заказа</i></h2>
+                    <h3>С нами приятно сотрудничать</h3>
+                </div>
+                <p>Давайте построим Вашу Интернет-Империю! </p>
+            </header>
 
-                        </div>
-                        <a href="#" class="more-this-poems">подробнее</a>
+        </div>
+        <div class="container">
+            <div class="row contact-widgets">
+                <div class="span-4 widget">
+                    <div class="widget-content">
+                        <header>
+                            <i class="livicon" data-n="globe" data-op="1" data-c="#C1C1C1" data-s="48"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Наш адрес</h4>
+                            </div>
+                        </header>
+                        <p>
+                            440 Greene St<br/>
+                            New York, NY 10000<br/>
+                            Phone number (212) 111-0022<br/>
+                        </p>
                     </div>
-                    <div class="pagination-poems">
-                        <span>страница </span>
-                        <ul class="pagination">
-                            <li><a href="#" class="pagination-item active">1</a></li>
-                            <li><a href="#" class="pagination-item">2</a></li>
-                            <li><a href="#" class="pagination-item">3</a></li>
-                            <li>....</li>
-                            <li><a href="#" class="pagination-item">50</a></li>
+                </div>
+                <div class="span-4 widget">
+                    <div class="widget-content">
+                        <header>
+                            <i class="livicon" data-n="phone" data-op="1" data-c="#C1C1C1" data-s="48"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Свяжитесь с нами</h4>
+                            </div>
+                        </header>
+                        <ul>
+                            <li>Location: Manhattan, New York City</li>
+                            <li>Phone: (212) 123 4567</li>
+                            <li>Email: <a href="mailto:support@themeforest.net">support@themeforest.net</a></li>
                         </ul>
-                        <form class="pagination-form" action="">
-                            <input type="text" placeholder="№ страницы">
-                            <button type="button"></button>
-                        </form>
-
+                    </div>
+                </div>
+                <div class="span-4 widget">
+                    <div class="widget-content">
+                        <header>
+                            <i class="livicon" data-n="clock" data-op="1" data-c="#C1C1C1" data-s="48"
+                               data-hc="false"></i>
+                            <div class="title">
+                                <h4>Часы работы</h4>
+                            </div>
+                        </header>
+                        <ul>
+                            <li>Monday - Friday: 09:00 - 17:00</li>
+                            <li>Saturday-Sunday: 09:00 - 14:30</li>
+                            <li>Holidays: Closed</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <hr class="stripes"/>
+            <form class="h5-valid">
+                <fieldset>
+                    <div class="form-element">
+                        <input type="text" class="box" required>
+                        <label>Имя</label>
+                    </div>
+                    <div class="form-element">
+                        <input type="text" class="box">
+                        <label>Фамилия</label>
+                    </div>
+                    <div class="form-element">
+                        <input type="tel" class="box">
+                        <label>Номер телефона</label>
+                    </div>
+                    <div class="form-element">
+                        <input type="email" class="box" required>
+                        <label>Email</label>
+                    </div>
+                </fieldset>
+                <div class="form-element">
+                    <textarea class="box" placeholder="Сообщение" required></textarea>
+                </div>
+                <button type="submit" class="button large full-width brand-1">Отправить сообщение</button>
+            </form>
         </div>
-    </div>
-</main>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/utils/Draggable.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-<script src="js/audio.js"></script>
-<script src="js/script.js"></script>
+    </section>
+    <section class="stats row block-columns">
+        <div class="stat span-3">
+            <i class="livicon" data-n="clock" data-c="#ffffff" data-op="1" data-s="68" data-hc="false"></i>
+            <h4><span id="stat-1" data-val="27000">0</span></h4>
+            <p>Часов</p>
+        </div>
+        <div class="stat span-3">
+            <i class="livicon" data-n="map" data-c="#ffffff" data-op="1" data-s="68" data-hc="false"></i>
+            <h4><span id="stat-2" data-val="95">0</span></h4>
+            <p>Тех заданий</p>
+        </div>
+        <div class="stat span-3">
+            <i class="livicon" data-n="users" data-c="#ffffff" data-op="1" data-s="68" data-hc="false"></i>
+            <h4><span id="stat-4" data-val="25">0</span></h4>
+            <p>В Команде</p>
+        </div>
+        <div class="stat span-3">
+            <i class="livicon" data-n="paper-plane" data-c="#ffffff" data-op="1" data-s="68" data-hc="false"></i>
+            <h4><span id="stat-3" data-val="87">0</span></h4>
+            <p>Проектов</p>
+        </div>
+    </section>
+    <footer class="app-footer">
+        <div class="container footer-content" id="s-contacts">
+            <div class="row">
+                <div class="span-3 footer-col">
+                    <!-- Logo -->
+
+                    <p>Создадим полный цикл разработки программного обеспечения с уникальной идеей и бизнес-моделью.</p>
+                    <!-- Copyright Section -->
+                    <p class="copyright" id="copyright">
+                        © OcOO "New Technology Company". Все права защищены. Syntlex Software development
+                        outsourcing, <?php echo date('Y') ?>
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/syntlex" class="icon tooltip" target="_blank" data-tip="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/syntlex" class="icon tooltip" target="_blank" data-tip="Twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/syntlex" class="icon tooltip" target="_blank"
+                           data-tip="LinkedIn">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://vk.com/syntlex" class="icon tooltip" data-tip="vKontakte">
+                            <i class="fa fa-vk"></i>
+                        </a>
+                        <a href="https://t.me/syntlex" class="tooltip" target="_blank" data-tip="Telegram"
+                           style="display: inline-block;">
+                            <i class="icon-telegram" style="padding-top: 3px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="span-3 footer-col">
+                    <h3>Россия</h3>
+                    <h4>отдел продаж</h4>
+                    <ul>
+                        <li><b><i class="fa fa-globe"></i> Location:</b> Россия, Москва</li>
+                        <li><b><i class="fa fa-phone-square"></i> Phone:</b> +7 (916) 104 83 92</li>
+                        <li><b><i class="fa fa-envelope"></i> Email:</b> <a href="mailto:anastasia@syntlex.info">anastasia@syntlex.info</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="owl-carousel footer-testimonials">
+                        <div class="testimonial">
+                            <div class="cf">
+                                <cite>
+                                    <strong>Анастасия</strong>
+                                    <i>Пн-Пт. 09:00-18:00</i>
+                                </cite>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-3 footer-col">
+                    <h3>Киргизия</h3>
+                    <h4>отдел продаж</h4>
+                    <ul>
+                        <li><b><i class="fa fa-globe"></i> Location:</b> Киргизия, Бишкек</li>
+                        <li><b><i class="fa fa-phone-square"></i> Phone:</b> +996 (555) 230 259</li>
+                        <li><b><i class="fa fa-envelope"></i> Email:</b> <a href="mailto:rakhima@syntlex.info">rakhima@syntlex.info</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="owl-carousel footer-testimonials">
+                        <div class="testimonial">
+                            <div class="cf">
+                                <cite>
+                                    <strong>Рахима</strong>
+                                    <i>Пн-Пт. 09:00-18:00</i>
+                                </cite>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-3 footer-col">
+                    <h3>РЕЗИДЕНТСТВО</h3>
+                    <div class="logo">
+                        <!-- image logo -->
+                        <a href="/" class="image-logo">
+                            <img src="assets/images/logo-HTP.png" alt="Syntlex"
+                                 style="max-height: 90px; margin-top: 30px"/>
+                        </a>
+
+                        <!-- HTML logo -->
+                        <a href="/" class="html-logo"><i class="fa fa-square-o"></i> [Syntlex]</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</div><!-- end #site-content -->
+
+<!-- TOOLS/UTILITIES -->
+
+<!-- Loading Spinner -->
+<div class="loading-wrapper active">
+    <div class="spinner"></div>
+</div>
+
+<!-- Fixed header -->
+<div class="fixed-header-container" id="fixed-header"></div>
+
+<!-- Control Panel Nav Trigger -->
+<div class="icon-lrg nav-trigger cp-trigger" id="cp-trigger">
+    <i class="fa fa-bars"></i>
+</div>
+
+<!-- Flyout Nav Trigger -->
+<span class="icon-lrg nav-trigger flyout-trigger" id="flyout-trigger">
+        <i class="fa fa-bars"></i>
+    </span>
+
+<!-- Control Panel Nav -->
+<nav class="cp-nav-container" id="cp-nav"></nav>
+
+<!-- Flyout Nav -->
+<nav class="flyout-nav-container" id="flyout-nav"></nav>
+
+<!-- Scroll-to-top Icon-->
+<a class="icon-lrg-border scroll-top" href="#site-content">
+    <i class="fa fa-angle-up"></i>
+</a>
+
+<!-- SCRIPTS -->
+
+<!-- jQuery -->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+<script src="assets/js/jquery.min.js"></script>
+
+<!-- LivIcons -->
+<script src="assets/js/raphael.min.js"></script>
+<script src="assets/js/livicons-custom.min.js"></script>
+
+<!--Plugins -->
+<script src="assets/js/owl-carousel.min.js"></script>
+<script src="assets/js/magnific-popup.min.js"></script>
+<!-- Theme Options -->
+<!-- Cookie (for theme color-switcher) -->
+<script src="assets/js/cookie.js"></script>
+<!--[if IE 9]>
+<script>$('.theme-options').hide();</script> <![endif]-->
+<!--[if gt IE 9]>
+<script src="assets/js/theme-options.js"></script> <![endif]-->
+<!--[if !IE]><!-->
+<script src="assets/js/theme-options.js"></script> <!--<![endif]-->
+<!-- General -->
+
+<script src="assets/js/app.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112681420-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112681420-3');
+</script>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function () {
+        var widget_id = '4yfqGZM2oh';
+        var d = document;
+        var w = window;
+
+        function l() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//code.jivosite.com/script/widget/' + widget_id
+            ;var ss = document.getElementsByTagName('script')[0];
+            ss.parentNode.insertBefore(s, ss);
+        }
+
+        if (d.readyState == 'complete') {
+            l();
+        } else {
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })();
+</script>
+<!-- {/literal} END JIVOSITE CODE -->
 </body>
+
 </html>

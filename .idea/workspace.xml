@@ -20,20 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9eef2d-74d2-4ce8-aee8-789944f95896" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2020_14_24_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2020_12_56_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_12_48_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_12_2020_20_03_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem-send.html" beforeDir="false" afterPath="$PROJECT_DIR$/poem-send.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registr.html" beforeDir="false" afterPath="$PROJECT_DIR$/registr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-abonen-plata.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-abonen-plata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-change-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-change-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-dostup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-dostup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-forum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-friends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room-price.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room-price.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-room.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restart" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,7 +91,8 @@
       <workItem from="1607525530279" duration="8172000" />
       <workItem from="1607622687432" duration="1289000" />
       <workItem from="1607782527204" duration="13308000" />
-      <workItem from="1608041998920" duration="7033000" />
+      <workItem from="1608041998920" duration="7441000" />
+      <workItem from="1608562178267" duration="51000" />
     </task>
     <servers />
   </component>
